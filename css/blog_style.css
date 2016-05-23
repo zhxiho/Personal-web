@@ -1,0 +1,147 @@
+.b-header {
+  position:fixed;
+  z-index: 2;
+  top:0;
+  left：0;
+  padding-top: 10px;
+  width:100%;
+  opacity: .9;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.b-header:hover{
+  opacity: 1;
+}
+.b-header .b-logo {
+  width:300px;
+  height: 60px;
+  float: center;
+  margin: 10px auto;
+  background-color:;
+}
+.b-logo img {
+  display: block;
+  width:50x;
+  height:50px;
+  float:left;
+  border:solid 1px #999;
+  border-radius:25px;
+  background-color:blue;
+}
+.b-logo h1 {
+  margin-top:-40px;
+  margin-left:15%;
+  width:220px;
+  float:right;
+  font-size:35px;
+  font-family:"微软雅黑";
+  font-weight:bolder;
+  color:;
+  background-color:;
+}
+@media only screen and (min-width: 768px) {
+  .b-header {
+    height: 80px;
+  }
+  .b-header #b-logo {
+    margin: 15px 0 0 5%;
+  }
+}
+.b-main-content {
+  width:100%;
+  height: 80%;
+  position: relative;
+  z-index: 1;
+}
+.b-bg {
+  position: relative;
+  min-height: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+.b-bg-1 {
+  width:100%;
+  height:40vw;
+  background-image: url("../img/bg_007.jpg");
+}
+.b-bg-1 .b-picimg {
+	position:absolute;
+	padding:5px;
+	top:40%;
+	left:20%;
+	width:260px;
+	height:260px;
+	border:;
+	border-radius:130px;
+	opacity:.6;
+	background-color:#fff;
+}
+.b-bg-1 .b-picimg img {
+	position:absolute;
+	top:;
+	left:;
+	width:260px;
+	height:260px;
+	border:;
+	border-radius:130px;
+	background-color:red;
+}
+.b-bg-1 .b-tCenter {
+	position:absolute;
+	top:40%;
+	left:50%;
+	width:400px;
+	height:260px;
+	opacity:.6;
+	background-color:red;
+}
+@media only screen and (max-width: 700px) {
+  .b-bg-1 .b-picimg {
+  	left:10%;
+    width:160px;
+    height:160px;
+    border-radius:80px;
+  }
+  .b-bg-1 .b-tCenter {
+  	left:50%;
+    width:200px;
+    height:100px;
+  }
+}
+.b-main-content .b-bg-2 {
+	padding-top: 20px;
+	padding-bottom:20px;
+	margin:20px auto;
+	width:70%;
+	height:auto!important;
+	min-height:800px !important;
+	height:800px;
+	background-color:#F5F5F5;
+	overflow:hidden;
+}
+.b-footer{
+	margin:;
+	width:100%;
+	min-height:100px;
+}
+.b-footer .b-bg-3 {
+	margin:0px auto;
+	width:70%;
+	height:100px;
+	background-color:yellow;
+}
+.b-article {
+	margin:20px auto;
+	width:85%;
+	height:250px;
+	opacity:.7;
+	background-color:red;
+}
+.b-article .b-at {
+	width:;
+	height:;
+}
