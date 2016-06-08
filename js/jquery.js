@@ -52,7 +52,6 @@ $(document).ready(function(){
 		weekday[5] = "星期五";
 		weekday[6] = "星期六";
 		$("#Time").html(year+'年'+month+'月'+mydate+'日  '+weekday[d]+'   '+h+':'+m+':'+s);
-		setInterval();
 	},500);
 
 
